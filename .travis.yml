@@ -6,7 +6,7 @@ python:
 install: "coveralls nose"
 
 script:
-  nosetests --with-coverage --cover-package=observer
+  nosetests --with-coverage --cover-package=simpleobserver
 
 after_success:
   coveralls

@@ -3,7 +3,7 @@ import os.path
 from setuptools import setup, find_packages
 
 setup(
-	name='observer',
+	name='simpleobserver',
 	version='1.0.0',
 	description='A very simple implementation of the observer pattern',
 	long_description=io.open('README.rst', mode='r', encoding='utf-8').read(),
@@ -27,5 +27,5 @@ setup(
     url='http://github.com/cooper-software/observer',
     license='MIT',
     py_modules=['observer'],
-    test_suite='test_observer'
+    test_suite='test_simpleobserver'
 )

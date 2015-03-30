@@ -1,5 +1,5 @@
-observer
-==========
+simpleobserver
+===============
 
 |PyPI| |Build Status| |Coverage Status|
 
@@ -7,9 +7,9 @@ A simple implementation of the observer pattern.
 
 .. code-block:: python
 
-	import observer
+	import simpleobserver
 	# Create a subject and list the events it might fire
-	foo = observer.Subject('bar', 'baz')
+	foo = simpleobserver.Subject('bar', 'baz')
 
 	# Add a listener
 	def foo_bar_listener(*args):
@@ -30,11 +30,11 @@ A simple implementation of the observer pattern.
 	# -> AssertionError: snorble is not a valid event for this subject
 
 
-.. |PyPI| image:: https://pypip.in/version/observer/badge.svg?style=flat
-   :target: https://pypi.python.org/pypi/observer/
+.. |PyPI| image:: https://pypip.in/version/simpleobserver/badge.svg?style=flat
+   :target: https://pypi.python.org/pypi/simpleobserver/
 
-.. |Build Status| image:: https://travis-ci.org/cooper-software/observer.svg
-   :target: https://travis-ci.org/cooper-software/observer
+.. |Build Status| image:: https://travis-ci.org/cooper-software/simpleobserver.svg
+   :target: https://travis-ci.org/cooper-software/simpleobserver
 
-.. |Coverage Status| image:: https://img.shields.io/coveralls/cooper-software/observer.svg
-   :target: https://coveralls.io/r/cooper-software/observer
+.. |Coverage Status| image:: https://img.shields.io/coveralls/cooper-software/simpleobserver.svg
+   :target: https://coveralls.io/r/cooper-software/simpleobserver
