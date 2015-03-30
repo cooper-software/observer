@@ -3,7 +3,7 @@ python:
   - "2.7"
   - "3.4"
 
-install: "coveralls nose"
+install: "pip install coveralls nose"
 
 script:
   nosetests --with-coverage --cover-package=simpleobserver
