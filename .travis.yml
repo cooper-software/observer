@@ -1,0 +1,12 @@
+language: python
+python:
+  - "2.7"
+  - "3.4"
+
+install: "coveralls nose"
+
+script:
+  nosetests --with-coverage --cover-package=observer
+
+after_success:
+  coveralls
