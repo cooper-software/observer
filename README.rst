@@ -38,3 +38,4 @@ A simple implementation of the observer pattern.
 
 .. |Coverage Status| image:: https://img.shields.io/coveralls/cooper-software/simpleobserver.svg
    :target: https://coveralls.io/r/cooper-software/simpleobserver
+
