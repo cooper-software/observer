@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
 	name='simpleobserver',
-	version='1.0.0',
+	version='1.0.1',
 	description='A very simple implementation of the observer pattern',
 	long_description=io.open('README.rst', mode='r', encoding='utf-8').read(),
 	classifiers=[
