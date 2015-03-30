@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
 	name='simpleobserver',
-	version='1.0.2',
+	version='1.0.3',
 	description='A very simple implementation of the observer pattern',
 	long_description=io.open('README.rst', mode='r', encoding='utf-8').read(),
 	classifiers=[
@@ -26,6 +26,6 @@ setup(
     author_email='elisha@cooper.com',
     url='http://github.com/cooper-software/observer',
     license='MIT',
-    py_modules=['observer'],
+    py_modules=['simpleobserver'],
     test_suite='test_simpleobserver'
 )
