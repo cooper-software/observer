@@ -30,7 +30,7 @@ A simple implementation of the observer pattern.
 	# -> AssertionError: snorble is not a valid event for this subject
 
 
-.. |PyPI| image:: https://pypip.in/version/simpleobserver/badge.svg?style=flat
+.. |PyPI| image:: https://img.shields.io/pypi/v/simpleobserver.svg?style=flat
    :target: https://pypi.python.org/pypi/simpleobserver/
 
 .. |Build Status| image:: https://travis-ci.org/cooper-software/simpleobserver.svg
